@@ -1,10 +1,9 @@
-<html>
+ <html>
 <body>
 
-<%=new java.util.Date() %>
-
-
-
+<%
+out.println("<h1>"+ "HELLO WORLD" + "</h1>");
+%>
 
 <%!
 String makeHtml(String data){
@@ -16,6 +15,6 @@ String makeHtml(String data){
 <%
 out.println("<h1>"+"okkkkk"+"</h2>");
 %>
-
+<button>Enter</button>
 </body>
 </html>
