@@ -10,16 +10,9 @@ public class TestJDBC {
 		String user = "hbstudent";
 		String pass = "hbstudent";
 		
-		try {
-			System.out.println("Connecting to database； " + jdbcUrl);
+		try {System.out.println("Connecting to database； " + jdbcUrl);
 			Connection myConn = DriverManager.getConnection(jdbcUrl,user,pass);
-			System.out.println("Connection Sucessful!!!");
-		}
-		catch(Exception exc){
-			exc.printStackTrace();
-			
-		}
-
+			System.out.println("Connection Sucessful!!!");		}
+		catch(Exception exc){exc.printStackTrace();}
 	}
-
 }
