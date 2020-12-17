@@ -18,6 +18,8 @@ public class TestJDBC {
 				Connection myConn = DriverManager.getConnection(jdbcUrl,user,pass);
 				
 				System.out.println("Connection Sucessful!!!");		
+
+				
 			}
 		catch(Exception exc)
 			{
