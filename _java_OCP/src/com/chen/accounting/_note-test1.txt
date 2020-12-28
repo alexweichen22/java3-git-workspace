@@ -1,0 +1,19 @@
+test1
+
+This is to test OCP Book 1:
+----Compile
+	javac -d . *.java
+----Excution
+	java -cp . accounting.Account str1 str2 str2 str3
+----Packaging
+	jar   -cvf   accounting.jar   accounting
+		    (jar-file-name)  (folder-name)
+----Excution from jar
+	java -cp accounting.jar accounting.Account
+	java -cp accounting.jar accounting.AccountCheck
+
+----main method test
+	*  String[] args / String args[]  /  String... args
+	*  Arguments (String[])
+
+
