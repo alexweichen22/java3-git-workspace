@@ -22,8 +22,21 @@
 		<form method="GET" action="form-review-response.jsp">
 			<h2>Search Books</h2><hr/>
 			<label for="id_search_keyword">Keyword</label>
-			<input type="text" id="id_search_keyword" name="search_keyword" size="36"/>
-			
+			<input type="text" id="id_search_keyword" name="search_keyword" size="24"/>
+			<lalel for="id_creteria">From</lalel>
+			<select id="id_creteria" name="creteria" size="1">
+		 		<option name="creteria" value="">Choose From Below</option>
+		        <option name="creteria" value="book_title" selected>Title of Book</option>
+		        <option name="creteria" value="book_author">Author of Book (Currently Not Supported ... )</option>
+		        <option name="creteria" value="book_id">Author of Book (Currently Not Supported ... )</option>
+		        <option name="creteria" value="book_year">Author of Book (Currently Not Supported ... )</option>
+		    </select><br/>
+		    		                
+			<!-- multiple choices of dropdown -->
+			<!--  [select id="id_choices" name="choices[]" multiple size="5"]-->
+			<!-- use "multiple" @ select for multiple choices -->
+			<!-- Meanwhile, use array for name: "favBrowser[]" -->
+
 			<input type="submit" value="Search" class="submit_button" />
 			
 	    </form><br/>
@@ -110,23 +123,8 @@
 		                url <input type="url" /><br/>
 		                week <input type="week" /><br/>
 		
-		                <br/><em>Form - select (option) - Dropdown Menu (single choice)</em><br/>
-		                <label for="favorite_browser">Favorite Browser</label><br/>
-		                <select id="favorite_browser" name="favBrowser" size="2">
-		                    <option name="favoriteBrowser" value="">Choose From Below</option>
-		                    <option name="favoriteBrowser" value="chrome" selected>Google Chrome</option>
-		                </select><br/>
-		
-		                <br/><em>Form - select (option) - Dropdown Menu (multiple choices)</em><br/>
-		                <label for="favorite_browser_m">Favorite Browser</label><br/>
-		                <select id="favorite_browser_m" name="favBrowserM[]" multiple size="3">
-		                        <!-- use "multiple" @ select for multiple choices -->
-		                        <!-- Meanwhile, use array for name: "favBrowser[]" -->
-		                    <option name="favoriteBrowser" value="">Choose From Below (Hold CTR for multiple choices)</option>
-		                        <!-- use value="" (empty) for none value "option" -->
-		                    <option name="favoriteBrowser" value="chrome" selected>Google Chrome</option>
-		                    <option name="favoriteBrowser" value="ff">Mozilla Firefox</option>
-		                </select><br/>
+
+
 		
 		                <br/><em>Form - textarea</em><br/>
 		                <label for="ta_message">Leave Your Meassage Below</label><br/>
