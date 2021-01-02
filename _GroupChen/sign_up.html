@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!--BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- BootStrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ce3727e4c1.js" crossorigin="anonymous"></script>
+    
+    <!-- slider -->
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- slider css -->
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!--OUR CSS-->
+    <link rel="stylesheet" href="css/laughacademy.css" />
+    <title>Sign Up</title>
+
+</head>
+
+<body>
+
+    <!-- start of header -->
+    <header class="mainheader" id="top">
+        <div class="container">
+
+            <!--start of header -->
+            <div class="row">
+
+                <!-- Image Logo -->
+                <div class="col-8 text-center col-sm-9 text-sm-left col-md-5 text-md-left col-lg-7 text-lg-left col-xl-8 "
+                    id="logoandheading">
+                    <div class="row">
+                        <div class="col-3 col-lg-2 col-xl-1">
+                            <img src="images/laughacademylogo.png" alt="laughacademy Logo" height="50" width="50"
+                                id="logoimage">
+                        </div>
+                        <div id="LAheading1" class="col-9 col-lg-10 col-xl-11">
+                            <h1>Laugh Academy</h1>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- navigation links -->
+                <div class="navigationBar col-4 col-sm-3 col-md-7 col-lg-5 col-xl-4 ">
+                    <nav class="navbar navbar-expand-md navbar-light " style="background-color: #ff9e4e">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navigationList navbar-nav mr-auto mt-2 mt-lg-0 ml-lg-5">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="team.html">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="activities.html">Activities</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12 text-center registeration_heading putASmile">
+                <h2>Registration</h2>
+            </div>
+        </div>
+
+        <form action="http://jac.stephmoreau.ca/submitForm/" target="_blank" method="POST" class="needs-validation"
+            novalidate>
+            <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" class="form-control" placeholder="First Name" required />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+                <div class="form-group col-12 col-md-6">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" class="form-control" placeholder="Last Name" required />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+                <div class="form-group col-12">
+                    <label for="schooling">Have you had any previous clown schooling ? If so, where ?</label>
+                    <textarea name="schooling" id="schooling" class="form-control"
+                        placeholder="Any privious clown schooling" required></textarea>
+                    <div class="invalid-feedback">
+                        Please enter your answer in the textarea.
+                    </div>
+                </div>
+
+                <div class="form-group col-12">
+                    <label for="class">Please select your chosen class</label>
+                    <select id="class" name="class" class="form-control custom-select" required>
+                        <option value="">Choose</option>
+                        <option value="1">Archetype And Character</option>
+                        <option value="2">Commedia Dell'arte</option>
+                        <option value="3">Return of the Jester</option>
+                        <option value="4">Sacred Clown</option>
+                        <option value="5">Tomfoolery and Tragedy</option>
+                        
+                    </select>
+                    <div class="invalid-feedback">Please choose valid class</div>
+                </div>
+
+                <div class="form-group col-12 col-md-6">
+                    <label for="street">Street</label>
+                    <input type="text" name="street" id="street" class="form-control" placeholder="Your Street"
+                        required />
+                    <div class="invalid-feedback">
+                        Please provide a valid street.
+                    </div>
+                </div>
+                <div class="form-row col-12">
+                    <div class="form-group col-md-6">
+                        <label for="city">City</label>
+                        <input type="text" name="city" class="form-control" id="city" placeholder="Your City"
+                            required />
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="province">Province</label>
+                        <select id="province" name="province" class="form-control custom-select" required>
+                            <option value="">Choose</option>
+                            <option value="british columbia">British Columbia</option>
+                            <option value="alberta">Alberta</option>
+                            <option value="saskatchewan">Saskatchewan</option>
+                            <option value="manitoba">Manitoba</option>
+                            <option value="ontario">Ontario</option>
+                            <option value="quebec">Quebec</option>
+                            <option value="new brunswick">New Brunswick</option>
+                            <option value="nova scotia">Nova Scotia</option>
+                            <option value="prince edward island">Prince Edward Island</option>
+                            <option value="newfoundland">Newfoundland and Labrador</option>
+                            <option value="yukon">Yukon</option>
+                            <option value="northwest">Northwest Territories</option>
+                            <option value="nunavut">Nunavut</option>
+                        </select>
+                        <div class="invalid-feedback">Please choose valid province</div>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="postal">Postal Code</label>
+                        <input type="text" name="postal" class="form-control" id="postal" placeholder="Your Postal Code"
+                            required />
+                        <div class="invalid-feedback">
+                            Please provide a valid postal code.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group col-12 col-md-6">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control"
+                        placeholder="Your Phone Number" required />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+
+                <div class="form-group col-12 col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email"
+                        required />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+                <div class="form-group col-12">
+                    <label for="reason">Why you wish to become a performing clown?</label>
+                    <textarea name="reason" id="reason" class="form-control" rows="3"
+                        placeholder="Reason to become a performing clown" required></textarea>
+                    <div class="invalid-feedback">
+                        Please enter your answer in the textarea.
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+                    <button type="submit" class="btn btn-lg btn-block mb-3 register"><strong>Register</strong></button>
+                </div>
+            </div>
+
+        </form>
+
+
+    </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="tel:5149876543" class="phonenum" title="+1 (514)987-6543">+1 (514)987-6543</a>
+
+                </div>
+            </div>
+            <div class="row navLink">
+                <div class="col-3 col-sm-2 offset-sm-2 text-center "><a href="index.html">Home</a></div>
+                <div class="col-3 col-sm-2 text-center"><a href="team.html">Team</a></div>
+                <div class="col-3 col-sm-2 text-center"><a href="activities.html">Activities</a></div>
+                <div class="col-3 col-sm-2 text-center"><a href="contact.html">Contact</a></div>
+            </div>
+
+            <div class="row sosMed2">
+                <div class="col-12 text-center sosMed">
+                    <div class="row">
+
+                        <a href="https://www.facebook.com/laughingacademy/" class="col-2 offset-2 col-md-1 offset-md-4"
+                            target="_blank">
+                            <i class="fab fa-md fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/laughacademy/" class="col-2 col-md-1" target="_blank">
+                            <i class="fab fa-md fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UC6DU4aBlUVypvVZED1eVMWQ/featured"
+                            class="col-2 col-md-1" target="_blank">
+                            <i class="fab fa-md fa-youtube"></i>
+                        </a>
+                        <a href="https://vimeo.com/laughmasters" class="col-2 col-md-1" target="_blank">
+                            <i class="fab fa-md fa-vimeo"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/laughacademy.js"></script>
+
+
+</body>
+
+</html>

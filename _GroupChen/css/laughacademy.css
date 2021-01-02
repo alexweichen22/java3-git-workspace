@@ -1,0 +1,315 @@
+/* laughacademy.css */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Ubuntu&display=swap');
+
+/* 
+font-family: 'Josefin Sans', sans-serif; 	light 300, regular 400
+font-family: 'Ubuntu', sans-serif; 	medium 500, bold 700
+ */
+
+
+/* Michael CSS - start */
+header, footer {
+    background-color: #ff9e4e;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color:#2d5ac0;
+    font-family: 'Ubuntu', sans-serif;
+        
+}
+
+
+
+.navbar-light .navbar-toggler  {
+    color: #2d5ac0;
+    border-color:#2d5ac0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2d5ac0;
+}
+
+
+#LAheading1 h1{
+    font-size: 1em;
+    padding-top: 1em;
+    font-weight: bold;
+
+}
+
+.putASmile h2, .upcomingAct h2, .teamMember h2 {
+    font-size: 1.25em;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #2d5ac0;
+}   
+
+.ERIEsistible p, .activitiesP p {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: .5em;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    
+  }
+
+.slick-prev:before, .slick-next:before{
+      color: #ff9e4e;
+}
+
+.slick-prev {
+    left: 25px;
+    z-index: 100;
+}
+
+.slick-next {
+    right: 25px;
+    z-index: 100;
+}
+
+#slider{
+    margin-bottom: 2em;
+}
+
+.phonenum{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/*min extralarge */
+@media(min-width:1200px){
+    .ml-lg-5, .mx-lg-5 {
+        margin-left: 12em!important;
+    }
+    
+}
+
+/*min large */
+@media(min-width:992px){
+    .ml-lg-5, .mx-lg-5 {
+        margin-left: 8em;
+    }
+
+    .putASmile h2, .upcomingAct h2, .teamMember h2 {
+        font-size: 1.75em;
+    }
+
+    #LAheading1 h1{
+        font-size: 3em;
+    }
+    
+}
+
+/*min medium */
+@media(min-width:768px){
+       
+    .ml-lg-5, .mx-lg-5 {
+        margin-left: 5em!important;
+    }
+
+    .ERIEsistible p, .activitiesP p {
+        font-size: 1.25em;
+    }
+    
+}
+
+/*min small */
+@media(min-width:576px){
+    #LAheading1 h1{
+        font-size: 1.5em;
+        padding-top: .5em;
+    }
+
+    
+}
+
+/* max small */
+@media(max-width:576px){
+    .phonenum {
+        font-size: 1em;
+    }
+}
+
+
+.navLink{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+footer a,
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+    color: #2d5ac0;
+}
+
+/* Social Media Icons footer*/
+
+footer a i,
+footer a:link i,
+footer a:visited i{
+    color: #2d5ac0;
+    padding: 5px;
+    transition-duration: .4s;
+}
+
+footer a:hover i,
+footer a:active i {
+    background-color: #fff;
+    transition-property: background-color, color, transform;
+    border-radius: 10px;
+    transform: scale(1.5);
+}
+
+a:hover .fa-facebook, a:active .fa-facebook{color: #3b5998;}
+a:hover .fa-youtube, a:active .fa-youtube{color: #bd081c;}
+a:hover .fa-instagram, a:active .fa-instagram {color:#8134af;}
+a:hover .fa-vimeo, a:active .fa-vimeo {color:#4EBBFF;}
+
+/* Michael CSS - end */
+
+
+
+
+/* Ta CSS - start */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  /*Style the Learn More and Regester buttons*/
+  .activitiesbutton, .activitiesbutton:hover{
+    background: #ff9e4e none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 6px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    text-align: center;
+  }
+
+  #upslider{
+    background: #f7efe9 none repeat scroll 0 0;
+  }
+  
+/* Ta CSS - end  */
+
+
+
+
+
+/* Payal CSS - start */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+.team_heading h2,.registeration_heading h2{
+    color: #2d5ac0;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    font-weight: bold;
+    margin-top: 0;
+}
+.member > div, .member {
+    margin-bottom: 0.5em;
+}
+.member_text{
+    display: none;
+}
+div.form-group label{
+    color: #ff9e4e;
+    font-weight:bold;
+}
+.register, .pop{
+    background-color: #2d5ac0;
+    color: #FFF;
+    margin-bottom: 0.5em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.pop{
+    width:inherit;
+}
+.pop:hover,.register:hover{
+    color: #ff9e4e;
+}
+
+
+
+
+/* Payal CSS - end  */
+
+
+
+
+
+/* Wei CSS - start */
+.contactContainer1,.contactContainer2{
+    padding:1em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align:center;
+}
+#contactTitle1,#contactTitle2 {
+    font-size: 1.25em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #2d5ac0;
+}
+
+.contactUL{
+    list-style-type:none;
+}
+#contactName {
+    font-size: 1em;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #2d5ac0;
+}
+
+
+
+/* Wei CSS - end  */
