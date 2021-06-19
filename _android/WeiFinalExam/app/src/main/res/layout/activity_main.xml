@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:text="CountryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="35dp"
+
+            android:id="@+id/textViewCountryName"/>
+
+        <EditText
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:inputType="textPersonName"
+
+            android:layout_alignBottom="@id/textViewCountryName"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="13dp"
+
+            android:id="@+id/editTextCountryName"/>
+
+        <TextView
+            android:text="Capital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/textViewCountryName"
+            android:layout_marginTop="50sp"
+            android:layout_alignEnd="@+id/textViewCountryName"
+
+            android:id="@+id/textViewCapital"/>
+
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_alignStart="@+id/editTextCountryName"
+            android:layout_alignBottom="@id/textViewCapital"
+
+            android:id="@+id/editTextCapital"/>
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+
+        android:divider="#02326c"
+        android:dividerHeight="2dp"
+
+        android:id="@+id/listViewCountries"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="Add"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            android:id="@+id/btnAdd"/>
+
+        <Button
+            android:text="Sort"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            android:id="@+id/btnSort"/>
+    </LinearLayout>
+</LinearLayout>

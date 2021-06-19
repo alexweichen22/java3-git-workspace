@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="48dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/simple_calculator"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"/>
+
+    <TextView
+        android:text="@string/enter_the_first_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="42dp"
+        android:layout_alignEnd="@+id/textView"
+
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="@string/enter_the_second_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="28dp"
+        android:layout_alignEnd="@+id/textView2"
+
+        android:id="@+id/textView3"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:inputType="numberDecimal"
+
+        android:text=""
+        android:ems="7"
+
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignParentEnd="true"
+
+        android:id="@+id/editText1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:inputType="numberDecimal"
+
+        android:text=""
+        android:ems="7"
+
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignStart="@+id/editText1"
+
+        android:id="@+id/editText2" />
+
+    <Button
+        android:text="@string/display_the_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+
+        android:onClick="doSum"
+
+        android:id="@+id/button"/>
+
+</RelativeLayout>

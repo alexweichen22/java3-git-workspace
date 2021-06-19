@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleBox"
+        android:text="Personal Information"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleBox"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@id/titleBox"
+        android:layout_toRightOf="@id/textViewName"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text="Sex" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textViewSex"
+        android:layout_alignLeft="@+id/editTextName"
+        android:id="@+id/radioGroupSex">
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewSport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupSex"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text="Sport" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textViewSport"
+        android:layout_alignLeft="@+id/editTextName"
+        android:id="@+id/radioGroupSport">
+        <RadioButton
+            android:id="@+id/radioButtonSoccer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soccer" />
+        <RadioButton
+            android:id="@+id/radioButtonHockey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hockey" />
+        <RadioButton
+            android:id="@+id/radioButtonHandball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Handball" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonShowInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupSport"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Show Info"
+        android:onClick="showInfo"
+        />
+
+
+</RelativeLayout>

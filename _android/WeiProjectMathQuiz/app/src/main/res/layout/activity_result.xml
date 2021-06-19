@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_page"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/textViewTitleResult"
+        android:text="Your Result and Score"
+        android:textSize="28dp"
+        android:padding="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_title"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerResultOption"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textViewTitleResult"
+        android:layout_centerHorizontal="true"
+        android:layout_alignRight="@id/textViewTitleResult"
+        android:layout_alignLeft="@id/textViewTitleResult"
+        android:background="@drawable/border_result_spinner"
+        android:layout_marginTop="15dp"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/listViewResults"
+        android:layout_height="350dp"
+        android:layout_below ="@id/spinnerResultOption"
+        android:layout_alignLeft="@id/textViewTitleResult"
+        android:layout_alignRight="@id/textViewTitleResult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_result_listview"
+        >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textViewLabelRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/listViewResults"
+        android:layout_alignLeft="@+id/textViewTitleResult"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:paddingLeft="15dp"
+        android:text="Register:" />
+
+    <EditText
+        android:id="@+id/editTextRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/listViewResults"
+        android:layout_toRightOf="@id/textViewLabelRegister"
+        android:layout_alignRight="@+id/textViewTitleResult"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/border_result_register"
+        android:gravity="center"
+        android:text=""
+        android:hint="Sign Your Name Here!"
+        />
+
+    <TextView
+        android:id="@+id/textViewLabelScore"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/editTextRegister"
+        android:layout_alignLeft="@id/textViewLabelRegister"
+        android:layout_alignRight="@id/textViewLabelRegister"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"
+        android:gravity="left"
+        android:layout_marginTop="15dp"
+        android:text="Score:" />
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/editTextRegister"
+        android:layout_alignLeft="@id/editTextRegister"
+        android:layout_alignRight="@id/editTextRegister"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_result_score"
+        android:text="100%" />
+
+    <Button
+        android:id="@+id/buttonGoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:layout_alignRight="@+id/textViewTitleResult"
+        android:onClick="goToMainPage"
+        android:text="Go Back"
+        android:background="@drawable/border_button"
+        />
+
+</RelativeLayout>

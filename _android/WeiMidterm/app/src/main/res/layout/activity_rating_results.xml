@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RatingResultsActivity">
+
+    <TextView
+        android:id="@+id/textViewTitleRatingResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Rating Results" />
+
+    <EditText
+        android:id="@+id/editTextResultsDisplay"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:ems="10"
+        android:layout_below="@id/radioButtonTwoStar"
+        android:layout_centerHorizontal="true"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <RadioButton
+        android:id="@+id/radioButtonOneStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitleRatingResults"
+        android:layout_toLeftOf="@id/radioButtonTwoStar"
+        android:onClick="displayOneStar"
+        android:text="1 Stars" />
+
+    <RadioButton
+        android:id="@+id/radioButtonTwoStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitleRatingResults"
+        android:layout_centerHorizontal="true"
+        android:onClick="displayTwoStar"
+        android:text="2 Stars" />
+
+    <RadioButton
+        android:id="@+id/radioButtonThreeStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitleRatingResults"
+        android:layout_toRightOf="@id/radioButtonTwoStar"
+        android:onClick="displayThreeStar"
+        android:text="3 Stars" />
+
+    <TextView
+        android:id="@+id/textViewRegisterLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextResultsDisplay"
+        android:text="Retister:"
+        android:textSize="15dp"
+        android:layout_margin="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextRegisterBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/editTextResultsDisplay"
+        android:layout_toRightOf="@id/textViewRegisterLabel"
+        android:layout_alignBottom="@id/textViewRegisterLabel"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonGoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextRegisterBy"
+        android:text="Go Back"
+        android:onClick = "registMe"
+        />
+
+
+</RelativeLayout>

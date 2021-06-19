@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="573ed3ca-416d-476e-bd90-9f1ad62eb35c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/androidTest/java/ca/jac/a10a_starbuzz/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/java/ca/jac/a10a_starbuzz/DrinkActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/java/ca/jac/a10a_starbuzz/DrinkCategoryActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/java/ca/jac/a10a_starbuzz/TopLevelActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/java/ca/jac/a10a_starbuzz/model/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/drawable/cappuccino.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/drawable/filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/drawable/latte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/drawable/starbuzz_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/layout/activity_drink.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/layout/activity_drink_category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/layout/activity_top_level.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/app/src/test/java/ca/jac/a10a_starbuzz/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A10A_Starbuzz/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WeiFinalProject/app/src/main/java/ca/jac/weifinalproject/Test1Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WeiFinalProject/app/src/main/res/layout/activity_test1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wei(V2.0).zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1sr2bKIc0j6EJqegaQbodfWaMpY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WeiFinalProject" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="573ed3ca-416d-476e-bd90-9f1ad62eb35c" name="Default Changelist" comment="" />
+      <created>1621616458101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621616458101</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1621616624481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/2400.0.1680.1010@0.0.1536.824" timestamp="1621616624481" />
+  </component>
+</project>

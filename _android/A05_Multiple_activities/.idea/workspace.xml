@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9eae8750-bfef-44fc-80a9-0a5e7ed71968" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../A05A_StudentInfo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A05A_StudentInfo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A05A_StudentInfo/app/src/main/java/ca/jac/a05a_studentinfo/DisplayPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A05A_StudentInfo/app/src/main/java/ca/jac/a05a_studentinfo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A05A_StudentInfo/app/src/main/res/drawable/border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A05A_StudentInfo/app/src/main/res/layout/activity_display_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/androidTest/java/ca/masoud/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/java/ca/masoud/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/drawable/double_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/drawable/eddy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/drawable/goofy_confused.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/app/src/test/java/ca/masoud/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/01-RadioBtn/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/__MACOSX/01-RadioBtn/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/__MACOSX/01-RadioBtn/.gradle/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/__MACOSX/01-RadioBtn/.idea/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-RadioBtn/__MACOSX/01-RadioBtn/app/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/androidTest/java/ca/masoud/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/java/ca/masoud/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/drawable/border_corner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/drawable/border_corner_touched.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/drawable/digital_photography.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/drawable/gradient.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/drawable/myselector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/drawable/myshape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/drawable/patric.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/drawable/selecor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/drawable/skull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/drawable/sponjbob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/_email_grid.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/_email_grid_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/_email_linear.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/_email_relative.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/compare_layouts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/compare_linear.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/constraint_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/corner_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/demo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/frame_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/grid_by_linear.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/grid_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/grid_layout_root.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/linear_weight.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/message_grid_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/message_linear_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/message_relative_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/scroll_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/layout/table_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-mdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-mdpi/skull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/values-fa-rIR/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/app/src/test/java/ca/masoud/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Layouts/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication2/app/src/main/java/ca/jac/myapplication2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/java/ca/jac/myapplication2/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/androidTest/java/ca/masoud/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/java/ca/masoud/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/app/src/test/java/ca/masoud/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/2017_01_23_Sum_numbers/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/__MACOSX/2017_01_23_Sum_numbers/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/__MACOSX/2017_01_23_Sum_numbers/.gradle/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/__MACOSX/2017_01_23_Sum_numbers/.idea/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_numbers_masoud/__MACOSX/2017_01_23_Sum_numbers/app/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/app/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/.idea/render.experimental.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/androidTest/java/ca/jac/ipd22/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/java/ca/jac/ipd22/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/layout/linearlayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/layout/relative.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/app/src/test/java/ca/jac/ipd22/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoDell/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/androidTest/java/net/jac/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/java/net/jac/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/app/src/test/java/net/jac/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoToshi/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1sbGTqeTWxlOYoFaT6sihAPG2io" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9eae8750-bfef-44fc-80a9-0a5e7ed71968" name="Default Changelist" comment="" />
+      <created>1621133886750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621133886750</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

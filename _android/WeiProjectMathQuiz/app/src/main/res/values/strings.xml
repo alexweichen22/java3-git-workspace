@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Math Quiz (V1.4) @ Wei (Alex) Chen</string>
+
+    <string-array name="options">
+        <item>All</item>
+        <item>Right</item>
+        <item>Wrong</item>
+    </string-array>
+</resources>

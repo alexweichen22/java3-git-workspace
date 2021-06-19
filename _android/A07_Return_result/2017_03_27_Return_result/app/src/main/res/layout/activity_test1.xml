@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityTest1">
+
+    <TextView
+        android:text="Generate a question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:textColor="#0b2d89"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+
+        android:id="@+id/textViewOperation"/>
+
+    <TextView
+        android:text="Answer:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textViewOperation"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+
+        android:id="@+id/textView2"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:ems="2"
+        android:inputType="textPersonName"
+
+        android:layout_below="@+id/textViewOperation"
+        android:layout_marginTop="64dp"
+
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/editTextAnswer"/>
+
+    <Button
+        android:text="Generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="20dp"
+
+        android:id="@+id/btnGenerate"/>
+
+    <Button
+        android:text="Validate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/btnGenerate"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/btnValidate"/>
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/btnValidate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+
+        android:id="@+id/btnCancel"/>
+
+</RelativeLayout>

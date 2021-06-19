@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleBox"
+        android:text="Student Info (V1.3 - Intent-Bundle-Sorting)"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="35dp"
+        />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleBox"
+        android:layout_marginLeft="60dp"
+        android:text="Student ID: " />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:layout_alignTop="@id/textView1"
+        android:layout_toRightOf="@id/textView1"
+        android:inputType="numberDecimal"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText1"
+        android:layout_marginLeft="60dp"
+        android:text="Name: " />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:layout_alignTop="@id/textView2"
+        android:layout_alignLeft="@id/editText1"
+        android:inputType="text"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText2"
+        android:layout_marginLeft="60dp"
+        android:text="Age: " />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:layout_alignTop="@id/textView3"
+        android:layout_alignLeft="@id/editText1"
+        android:inputType="numberDecimal"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Student Info"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:onClick="displayStuInfo"
+        />
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:layout_alignLeft="@+id/btnDisplay"
+        android:layout_alignRight="@id/btnDisplay"
+        android:layout_below="@id/btnDisplay"
+        android:layout_centerHorizontal="true"
+        android:onClick="finish"
+        />
+
+    <Button
+        android:id="@+id/btnAddStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFinish"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btnShowAllStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFinish"
+        android:layout_toRightOf="@id/btnAddStudent"
+        android:text="ShowAll" />
+
+    <Button
+        android:id="@+id/btnDeleteAllStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFinish"
+        android:layout_toRightOf="@+id/btnShowAllStudent"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/btnEditStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFinish"
+        android:layout_toRightOf="@+id/btnDeleteAllStudent"
+        android:text="Edit" />
+
+
+</RelativeLayout>

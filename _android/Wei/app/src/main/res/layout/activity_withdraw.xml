@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WithdrawActivity">
+
+
+    <TextView
+        android:id="@+id/textViewLabelBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Balance" />
+
+    <TextView
+        android:id="@+id/textViewBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewLabelBalance"
+        android:textSize="25dp"
+        android:text="0.0" />
+
+    <EditText
+        android:id="@+id/editTextWithdrawAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/textViewBalance"
+        android:inputType="numberDecimal"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter the amount"/>
+
+    <Button
+        android:id="@+id/buttonWithdraw"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_below="@id/editTextWithdrawAmount"
+        android:layout_centerHorizontal="true"
+        android:text="Withdraw"
+        />
+
+
+</RelativeLayout>

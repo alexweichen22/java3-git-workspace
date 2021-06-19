@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/textViewLableAddAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="Add Account" />
+
+    <EditText
+        android:id="@+id/editTextAccountNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/textViewLableAddAccount"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:hint="Account (auto-generated)" />
+
+    <EditText
+        android:id="@+id/editTextOpenDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/editTextAccountNumber"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:hint="Open Date (String - 20201225)" />
+    <EditText
+        android:id="@+id/editTextBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/editTextOpenDate"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:hint="Open Date (String - 20201225)" />
+
+    <TextView
+        android:id="@+id/textViewLabelCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextBalance"
+        android:layout_marginTop="25dp"
+        android:text="Customer" />
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/textViewLabelCustomer"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:hint="Name" />
+    <EditText
+        android:id="@+id/editTextFamilyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/editTextFirstName"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:hint="Family" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/editTextFamilyName"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:hint="Phone" />
+    <EditText
+        android:id="@+id/editTextSinNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/editTextPhoneNumber"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:hint="SIN" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSinNumber"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/buttonFind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSinNumber"
+        android:layout_toRightOf="@id/buttonAdd"
+        android:text="Find" />
+
+    <Button
+        android:id="@+id/buttonRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSinNumber"
+        android:layout_toRightOf="@id/buttonFind"
+        android:text="Remove" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSinNumber"
+        android:layout_toRightOf="@id/buttonRemove"
+        android:text="Update" />
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:text="Save" />
+    <Button
+        android:id="@+id/buttonLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:layout_toRightOf="@id/buttonSave"
+        android:text="Load" />
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:layout_toRightOf="@id/buttonLoad"
+        android:text="Clear" />
+    <Button
+        android:id="@+id/buttonShowAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:layout_toRightOf="@id/buttonClear"
+        android:text="ShowAll" />
+
+
+
+</RelativeLayout>

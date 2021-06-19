@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayPage"
+    android:padding="5dp"
+    >
+    <TextView
+        android:id="@+id/displayLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Info Display Page"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/displayStudentInfo"
+        android:layout_width="290dp"
+        android:layout_height="300dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/displayLable"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:textSize="10dp"
+        android:background="@drawable/border"
+        />
+    <Button
+        android:id="@+id/btnSortById"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayStudentInfo"
+        android:text="Sort By Id"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="10dp"
+        android:onClick="sortById"
+        />
+    <Button
+        android:id="@+id/btnCloseDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayStudentInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/btnSortById"
+        android:text="Go Back"
+        android:onClick="closeDisplay"
+        />
+
+    <TextView
+        android:id="@+id/lableCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATOR"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnCloseDisplay"
+        />
+
+    <TextView
+        android:id="@+id/textViewOperand1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lableCalculator"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:text="Operand-1" />
+
+    <EditText
+        android:id="@+id/editTextOperand1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/lableCalculator"
+        android:layout_toRightOf="@id/textViewOperand1"
+        />
+
+    <TextView
+        android:id="@+id/textViewOperand2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextOperand1"
+        android:layout_alignLeft="@id/textViewOperand1"
+        android:textSize="15dp"
+        android:text="Operand-2" />
+
+    <EditText
+        android:id="@+id/editTextOperand2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/editTextOperand1"
+        android:layout_alignLeft="@id/editTextOperand1"
+        />
+
+    <TextView
+        android:id="@+id/textViewOperator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextOperand2"
+        android:layout_alignLeft="@id/textViewOperand1"
+        android:textSize="15dp"
+        android:text="Operator" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupOperator"
+        android:layout_below="@id/editTextOperand2"
+
+        android:layout_alignLeft="@+id/editTextOperand2">
+        <RadioButton
+            android:id="@+id/rbtnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:checked="true"
+            android:textSize="20dp"
+            android:text="+" />
+        <RadioButton
+            android:id="@+id/rbtnSubtract"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="20dp"
+            android:text="-" />
+        <RadioButton
+            android:id="@+id/rbtnMultiply"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="20dp"
+            android:text="X" />
+        <RadioButton
+            android:id="@+id/rbtnDivide"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="20dp"
+            android:text="/" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCaculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupOperator"
+        android:layout_centerHorizontal="true"
+        android:text="Caculate Result"
+        android:onClick="doSomeMath"
+        />
+
+</RelativeLayout>

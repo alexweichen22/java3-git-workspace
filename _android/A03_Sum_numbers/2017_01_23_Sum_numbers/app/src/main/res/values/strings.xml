@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sum_numbers</string>
+    <string name="enter_the_first_number">Enter the first number</string>
+    <string name="enter_the_second_number">Enter the second number</string>
+    <string name="display_the_sum">Display the sum</string>
+    <string name="simple_calculator">Simple Calculator</string>
+</resources>
