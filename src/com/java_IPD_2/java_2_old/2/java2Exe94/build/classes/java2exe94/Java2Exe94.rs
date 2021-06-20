@@ -1,0 +1,4 @@
+java2exe94.ExceptionB$ExceptionC
+java2exe94.Java2Exe94
+java2exe94.ExceptionB
+java2exe94.ExceptionC
