@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Multi-file class diagram">
+  <ClassDiagramComponents>
+    <Class name="HiddenLayer" package="neuron" visibility="public" xPosition="197.0" yPosition="478.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="initLayer" returnType="void" visibility="public">
+          <Argument type="HiddenLayer" name="hiddenLayer"/>
+          <Argument type="ArrayList&lt;HiddenLayer&gt;" name="listOfHiddenLayer"/>
+          <Argument type="InputLayer" name="inputLayer"/>
+          <Argument type="OutputLayer" name="outputLayer"/>
+        </Method>
+        <Method name="printLayer" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;HiddenLayer&gt;" name="listOfHiddenLayer"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="InputLayer" package="neuron" visibility="public" xPosition="26.0" yPosition="141.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="initLayer" returnType="void" visibility="public">
+          <Argument type="InputLayer" name="inputLayer"/>
+        </Method>
+        <Method name="printLayer" returnType="void" visibility="public">
+          <Argument type="InputLayer" name="inputLayer"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Layer" package="neuron" visibility="public" isAbstract="true" xPosition="319.0" yPosition="243.0">
+      <Fields>
+        <Field name="listOfNeurons" type="ArrayList&lt;Neuron&gt;" visibility="private"/>
+        <Field name="numberOfNeuronsInLayer" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getListOfNeurons" returnType="ArrayList&lt;Neuron&gt;" visibility="public"/>
+        <Method name="setListOfNeurons" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;Neuron&gt;" name="listOfNeurons"/>
+        </Method>
+        <Method name="getNumberOfNeuronsInLayer" returnType="int" visibility="public"/>
+        <Method name="setNumberOfNeuronsInLayer" returnType="void" visibility="public">
+          <Argument type="int" name="numberOfNeuronsInLayer"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="NeuralNet" package="neuron" visibility="public" xPosition="415.0" yPosition="639.0">
+      <Fields>
+        <Field name="inputLayer" type="InputLayer" visibility="private"/>
+        <Field name="hiddenLayer" type="HiddenLayer" visibility="private"/>
+        <Field name="listOfHiddenLayer" type="ArrayList&lt;HiddenLayer&gt;" visibility="private"/>
+        <Field name="outputLayer" type="OutputLayer" visibility="private"/>
+        <Field name="numberOfHiddenLayers" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="initNet" returnType="void" visibility="public"/>
+        <Method name="printNet" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="NeuralNetTest" package="neuron" visibility="public" xPosition="801.0" yPosition="14.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Neuron" package="neuron" visibility="public" xPosition="319.0" yPosition="14.0">
+      <Fields>
+        <Field name="listOfWeightIn" type="ArrayList&lt;Double&gt;" visibility="private"/>
+        <Field name="listOfWeightOut" type="ArrayList&lt;Double&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="initNeuron" returnType="double" visibility="public"/>
+        <Method name="setListOfWeightIn" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;Double&gt;" name="listOfWeightIn"/>
+        </Method>
+        <Method name="setListOfWeightOut" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;Double&gt;" name="listOfWeightOut"/>
+        </Method>
+        <Method name="getListOfWeight" returnType="ArrayList&lt;Double&gt;" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="OutputLayer" package="neuron" visibility="public" xPosition="770.0" yPosition="175.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="initLayer" returnType="void" visibility="public">
+          <Argument type="OutputLayer" name="outputLayer"/>
+        </Method>
+        <Method name="printLayer" returnType="void" visibility="public">
+          <Argument type="OutputLayer" name="outputLayer"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="neuron.InputLayer" target="neuron.Layer"/>
+    <UseRelation source="neuron.HiddenLayer" target="neuron.OutputLayer" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="listOfNeurons" source="neuron.Layer" target="neuron.Neuron" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Neuron&gt;"/>
+    <HasRelation name="inputLayer" source="neuron.NeuralNet" target="neuron.InputLayer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="neuron.OutputLayer" target="neuron.OutputLayer" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="listOfHiddenLayer" source="neuron.NeuralNet" target="neuron.HiddenLayer" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;HiddenLayer&gt;"/>
+    <HasRelation name="hiddenLayer" source="neuron.NeuralNet" target="neuron.HiddenLayer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="neuron.Layer" target="neuron.Neuron" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="neuron.OutputLayer" target="neuron.Layer"/>
+    <IsRelation name="is" source="neuron.HiddenLayer" target="neuron.Layer"/>
+    <UseRelation source="neuron.InputLayer" target="neuron.Layer" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="outputLayer" source="neuron.NeuralNet" target="neuron.OutputLayer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="neuron.HiddenLayer" target="neuron.Layer" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
