@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1910be6-0ec3-4db5-976d-c9b88a38bff2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../DS/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/Data Structure and Algorithms.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/Data Structure and Algorithms.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/balancedtree/AVLTreeRecursive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/balancedtree/AVLTreeRecursiveOptimized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/balancedtree/RedBlackTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/binarysearchtree/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/binarysearchtree/SplayTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/binarysearchtree/TreeTraversalOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/bloomfilter/AnagramSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/bloomfilter/BloomFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/bloomfilter/StringSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/dynamicarray/DynamicArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/dynamicarray/IntArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/fenwicktree/FenwickTreeRangeQueryPointUpdate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/fenwicktree/FenwickTreeRangeUpdatePointQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/fenwicktree/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/hashtable/Benchmark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/hashtable/DoubleHashingTestObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/hashtable/HashTableDoubleHashing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/hashtable/HashTableLinearProbing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/hashtable/HashTableOpenAddressingBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/hashtable/HashTableQuadraticProbing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/hashtable/HashTableSeparateChaining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/hashtable/SecondaryHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/linkedlist/DoublyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/priorityqueue/BinaryHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/priorityqueue/BinaryHeapQuickRemovals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/priorityqueue/MinDHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/priorityqueue/MinIndexedBinaryHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/priorityqueue/MinIndexedDHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/quadtree/QuadTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/quadtree/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/queue/IntQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/queue/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/segmenttree/CompactSegmentTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/segmenttree/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/set/HSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/skiplist/SkipList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/stack/IntStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/stack/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/suffixarray/SuffixArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/suffixarray/SuffixArrayFast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/suffixarray/SuffixArrayMed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/suffixarray/SuffixArraySlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/trie/Trie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/unionfind/UnionFind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/utils/TestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/com/williamfiset/datastructures/utils/TreePrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/dependencies/animal-sniffer-annotations-1.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/dependencies/commons-lang3-3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/dependencies/error_prone_annotations-2.0.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/dependencies/guava-22.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/dependencies/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/dependencies/j2objc-annotations-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/dependencies/jsr305-1.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/dependencies/junit-4.13-beta-3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/dependencies/truth-0.36.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/balancedtree/AVLTreeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/balancedtree/RedBlackTreeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/binarysearchtree/BinarySearchTreeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/binarysearchtree/SplayTreeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/bloomfilter/BloomFilterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/dynamicarray/DynamicArrayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/fenwicktree/FenwickTreeRangeQueryPointUpdateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/fenwicktree/FenwickTreeRangeUpdatePointQueryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/hashtable/HashTableDoubleHashingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/hashtable/HashTableLinearProbingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/hashtable/HashTableQuadraticProbingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/hashtable/HashTableSeparateChainingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/linkedlist/LinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/priorityqueue/BinaryHeapQuickRemovalsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/priorityqueue/BinaryHeapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/priorityqueue/MinDHeapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/priorityqueue/MinIndexedBinaryHeapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/quadtree/QuadTreeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/queue/IntQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/queue/QueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/segmenttree/SegmentTreeWithPointersTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/set/HSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/stack/StackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/suffixarray/SuffixArrayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/trie/TrieTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/javatests/com/williamfiset/datastructures/unionfind/UnionFindTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_01_introduction/ds_intro_slides.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_01_introduction/ds_intro_slides.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_01_introduction/ds_intro_slides.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_02_dynamicarray/Arrays.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_02_dynamicarray/Arrays.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_02_dynamicarray/Arrays.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_03_linkedlist/LinkedLists.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_03_linkedlist/LinkedLists.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_03_linkedlist/LinkedLists.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_04_stack/Stack.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_04_stack/Stack.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_04_stack/Stack.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_05_queue/Queue.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_05_queue/Queue.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_05_queue/Queue.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_06_priorityqueue/PriorityQueue.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_06_priorityqueue/PriorityQueue.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_06_priorityqueue/PriorityQueue.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_06_priorityqueue/indexed_priority_queue.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_06_priorityqueue/indexed_priority_queue.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_07_unionfind/UnionFind.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_07_unionfind/UnionFind.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_07_unionfind/UnionFind.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_08_binarysearchtree/BinaryTrees.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_08_binarysearchtree/BinaryTrees.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_08_binarysearchtree/BinaryTrees.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_09_hashtable/hashtable.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_09_hashtable/hashtable.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_09_hashtable/hashtable.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_10_fenwicktree/FenwickTree.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_10_fenwicktree/FenwickTree.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_10_fenwicktree/FenwickTree.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_10_fenwicktree/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_10_fenwicktree/fenwick_tree_paper.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_11_suffixarray/SA.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_11_suffixarray/Strings.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_11_suffixarray/SuffixArray.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_11_suffixarray/SuffixArrays.html_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_11_suffixarray/lec14b.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_11_suffixarray/sais.html_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_11_suffixarray/suffix-array.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_12_avltree/AvlTree.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_12_avltree/AvlTree.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_12_avltree/AvlTree.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_12_avltree/script.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_12_avltree/tree_rotations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/_12_avltree/tree_rotations.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/audio/intro.aif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/audio/intro.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/audio/loop.aif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/audio/loop.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/audio/outro.aif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/audio/outro.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/BST.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/BST.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/BST.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/FT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/FT.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/HT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/HT.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/PQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/PQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/PQ.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/UF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/UF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/UF.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/array.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/array.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/array.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/intro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/intro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/intro.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/linkedlist.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/linkedlist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/linkedlist.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/queue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/queue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/queue.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/stack.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/stack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/stack.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/images/youtube_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/quadtree/QuadTree.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/quadtree/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/redblacktree/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/segmenttree/SegmentTree.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DS/slides/template.key" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1aC3mV0djmvkhKgeUWLcUxmVivu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/williamfiset" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1910be6-0ec3-4db5-976d-c9b88a38bff2" name="Default Changelist" comment="" />
+      <created>1586225907365</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586225907365</updated>
+      <workItem from="1586225909168" duration="284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="330" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586226183895">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="414" y="330" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1680.1050@67.27.1853.1053" timestamp="1586226183895" />
+    <state x="725" y="338" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586226179866">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="725" y="338" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1853.1053/1920.0.1680.1050@67.27.1853.1053" timestamp="1586226179866" />
+    <state x="739" y="430" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586226155556">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="739" y="430" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1680.1050@67.27.1853.1053" timestamp="1586226155556" />
+  </component>
+</project>
